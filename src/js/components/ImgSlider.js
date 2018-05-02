@@ -6,27 +6,33 @@ import '../../css/ImgSlider.css';
 class ImgSlider extends Component {  
     render() {
     var settings = {
-      dots: true,
-      infinite: true,
       speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
+      autoplay: true,
+      autoplaySpeed: 5000,
+      dots: true,
+      arrows: true,
+      infinite: true,
+      slidesToScroll: 1,
+      swipeToSlide: true,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            settings: 'unslick',
+          }
+        }
+      ]
     };
     return (
       <div className="slider">
         <Slider {...settings}>
           <div className="sliderImgs">
-            <img src="http://static.event.mihoyo.com/new_mihoyo_homepage//images/guide/banner/5.1/1.jpg" />
+            <img src="images/slide1.jpg" />
           </div>
           <div className="sliderImgs">
-            <img src="http://static.event.mihoyo.com/new_mihoyo_homepage//images/guide/banner/5.1/2.jpg" />
+            <img src="images/slide2.jpg" />
           </div>
-          <div className="sliderImgs">
-            <img src="http://static.event.mihoyo.com/new_mihoyo_homepage//images/guide/banner/5.1/3.jpg" />
-          </div>
-          <div className="sliderImgs">
-            <img src="http://static.event.mihoyo.com/new_mihoyo_homepage//images/guide/banner/5.1/4.jpg" />
-          </div>
+          
         </Slider>
       </div>
     );

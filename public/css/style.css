@@ -3,7 +3,7 @@
 /*Global Settings*/
 body{
 	font-family: 'Lora', serif;
-	background-image: url("http://static.event.mihoyo.com/new_mihoyo_homepage/images/guide/bg.png?v=6");
+	background-image: url();
 }
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Raleway', sans-serif;
@@ -347,7 +347,10 @@ section{
 
 /*Home page*/
 .header{
-	background-image: url("http://static.event.mihoyo.com/new_mihoyo_homepage/images/guide/bg.png?v=6");
+	background-size:cover;
+	background-repeat:no-repeat;
+	min-height:200px;  
+	background-image: url(../images/1.jpg);
 	height: 100vh;
 	position: relative;
 	min-height: 659px;
@@ -529,4 +532,16 @@ section{
 	.vira-card{
 		margin-bottom: 60px;
 	}
+}
+
+.content {
+    background-image: url(../images/middle-cover.jpg);
+    margin:0;
+    padding:0;
+    height:auto;
+    width:100%;
+}
+
+.flex {
+	display: flex;
 }
