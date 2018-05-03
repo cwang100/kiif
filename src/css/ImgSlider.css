@@ -1,0 +1,13 @@
+@media (min-width: 960px) {
+    .slider {
+        margin: auto;
+        width:1000px;
+    }
+}
+
+.slider {
+    padding:40px;
+}
+
+.sliderImgs {
+}
