@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import '../../css/Detail.css';
 
-class Row extends Component {  
+class DetailRight extends Component {  
   render() {
     return (
       <div className="detail_wrapper flex flex-wrap">
-    	<figure className="featured-image">
+    	<figure className="featured-image image_block_1">
             <img src={ this.props.image } alt="" />
         </figure>
+
         <div className="detail-description">
             <div className="detail-description-container">
                 <div className="entry-title">
@@ -23,9 +24,13 @@ class Row extends Component {
                 </div>
             </div>
         </div>
+
+        <figure className="featured-image image_block_2">
+            <img src={ this.props.image } alt="" />
+        </figure>
       </div>
     );
   }
 }
 
-export default Row;
+export default DetailRight;

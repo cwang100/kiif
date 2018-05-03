@@ -26,11 +26,11 @@ class ImgSlider extends Component {
     return (
       <div className="slider">
         <Slider {...settings}>
-          <div className="sliderImgs">
-            <img src="images/slide1.jpg" />
+          <div>
+            <img src="images/slide1.jpg" className="sliderImgs"/>
           </div>
           <div className="sliderImgs">
-            <img src="images/slide2.jpg" />
+            <img src="images/slide2.jpg" className="sliderImgs"/>
           </div>
           
         </Slider>
