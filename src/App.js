@@ -31,10 +31,10 @@ class App extends Component {
             <Row>
               <Column width='12'>
                 <Wrapper>
-                  <Detail image="http://static.event.mihoyo.com/new_mihoyo_homepage/images/guide/chara/kiana/kiana.png" 
+                  <Detail image="images/2.jpg" 
                   title="title1" 
                   text="Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum." />
-                  <Detail image="http://static.event.mihoyo.com/new_mihoyo_homepage/images/guide/chara/mei/mei.png" 
+                  <Detail image="images/3.jpg" 
                   title="title2" 
                   text="Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum." />
                 </Wrapper>
