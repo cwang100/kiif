@@ -5,6 +5,8 @@ import Wrapper from './Wrapper.js';
 import DetailLeft from './DetailLeft.js';
 import DetailRight from './DetailRight.js';
 import ImgSlider from './ImgSlider.js';
+import Holderjs from 'holderjs';
+
 
 class Home extends Component {  
   render() {

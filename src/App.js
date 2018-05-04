@@ -6,11 +6,8 @@ import Navbar from './js/components/Navbar.js';
 import ImgSlider from './js/components/ImgSlider.js';
 import Container from './js/components/Container.js';
 import Content from './js/components/Content.js';
-import Row from './js/components/Row.js';
-import Column from './js/components/Column.js';
-import Wrapper from './js/components/Wrapper.js';
 import Home from './js/components/Home.js';
-import Holderjs from 'holderjs';
+import Footer from './js/components/Footer.js';
 
 
 class App extends Component {
@@ -25,6 +22,7 @@ class App extends Component {
           <Container>
             <Home />
           </Container>
+          <Footer />
         </Content>
         <p className="App-intro">
 
