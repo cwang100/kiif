@@ -1,4 +1,4 @@
-button {
+.button_special {
   background: none;
   border: 0;
   box-sizing: border-box;
@@ -11,7 +11,7 @@ button {
   position: relative;
   vertical-align: middle;
 }
-button::before, button::after {
+.button_special::before, .button_special::after {
   box-sizing: inherit;
   content: '';
   position: absolute;
