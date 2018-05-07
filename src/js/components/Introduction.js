@@ -5,6 +5,7 @@ import '../../css/Button.css';
 import '../../css/Footer.css';
 import Holderjs from 'holderjs';
 import Container from './Container.js';
+import Textbox from './Textbox.js';
 
 class Introduction extends Component {  
   render() {

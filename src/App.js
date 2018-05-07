@@ -8,26 +8,29 @@ import Container from './js/components/Container.js';
 import Content from './js/components/Content.js';
 import Home from './js/components/Home.js';
 import Footer from './js/components/Footer.js';
+import Introduction from './js/components/Introduction.js';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 
 
 class App extends Component {
   render() {
     
     return (
+      <Router>
       <div className="App">
-        <Header>
-          <Navbar />
-        </Header>
+        <Navbar />
         <Content>
-          <Container>
-            <Home />
-          </Container>
+          <Route exact path="/" component={Home}/>
+          <Route path="/intro" component={Introduction}/>
           <Footer />
         </Content>
-        <p className="App-intro">
 
-        </p>
       </div>
+      </Router>
     );
   }
 }

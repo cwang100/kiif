@@ -27,7 +27,7 @@ class Navbar extends Component {
 
       <ul className="nav navbar-nav navbar-right">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="111">News</Link></li>
+        <li><Link to="intro">Introduction</Link></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
