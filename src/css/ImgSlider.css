@@ -1,13 +1,16 @@
 @media (min-width: 960px) {
-    .slider {
-        margin: auto;
-        width:1000px;
-    }
+	.slider {
+		width:1000px;
+		padding:40px;
+	}
 }
 
 .slider {
-    padding:40px;
+	margin: auto;
+	margin-top:20px;
+	margin-bottom: 20px;
 }
 
 .sliderImgs {
+	width:100%;
 }

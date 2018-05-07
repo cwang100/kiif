@@ -25,7 +25,6 @@ h3{
 }
 p{
 	font-size: 16px;
-	font-style: italic;
 	color: #818181;
 }
 a{
@@ -348,12 +347,22 @@ section{
 /*Home page*/
 .header{
 	background-size:cover;
-	background-repeat:no-repeat;
-	min-height:200px;  
+	background-repeat:no-repeat; 
 	background-image: url(../images/1.jpg);
-	height: 100vh;
+	background-position: center;
 	position: relative;
-	min-height: 659px;
+}
+
+@media (min-width: 760px) {
+.header {
+    min-height: 100vh;
+}
+}
+
+@media (max-width: 760px) {
+.header {
+    min-height: 50vh;
+}
 }
 
 .intro-box{
@@ -510,23 +519,6 @@ section{
 .contact .vira-card .vira-card-content p{
 	font-size: 18px;
 }
-.footer{
-	background-color: #202020;
-	text-align: center;
-	padding: 60px 0;
-}
-.footer span{
-	color: #51c2b9;
-}
-.footer p{
-	font-size: 21px;
-	color: #fff;
-	margin-bottom: 0;
-}
-.footer a{
-	color: #fff;
-}
-
 
 @media (max-width: 767px){
 	.vira-card{
@@ -544,4 +536,28 @@ section{
 
 .flex {
 	display: flex;
+}
+
+.flex-wrap {
+    -ms-flex-wrap: wrap!important;
+    flex-wrap: wrap!important;
+}
+
+.split-layout__rule {
+	min-height:5px;
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  z-index:100;
+ }
+
+@media screen and (min-width: 700px) {
+.split-layout__rule {
+   border-width: 0 1px 0 0;
+   border-color: black;
+   flex-direction: column;
+  }
 }

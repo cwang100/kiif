@@ -6,10 +6,8 @@ import Navbar from './js/components/Navbar.js';
 import ImgSlider from './js/components/ImgSlider.js';
 import Container from './js/components/Container.js';
 import Content from './js/components/Content.js';
-import Row from './js/components/Row.js';
-import Column from './js/components/Column.js';
-import Wrapper from './js/components/Wrapper.js';
-import Detail from './js/components/Detail.js';
+import Home from './js/components/Home.js';
+import Footer from './js/components/Footer.js';
 
 
 class App extends Component {
@@ -22,26 +20,9 @@ class App extends Component {
         </Header>
         <Content>
           <Container>
-            <Row>
-              <Column width='12'>
-                <ImgSlider />
-              </Column>
-            </Row>
-
-            <Row>
-              <Column width='12'>
-                <Wrapper>
-                  <Detail image="images/2.jpg" 
-                  title="title1" 
-                  text="Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum." />
-                  <Detail image="images/3.jpg" 
-                  title="title2" 
-                  text="Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum." />
-                </Wrapper>
-              </Column>
-            </Row>
-
+            <Home />
           </Container>
+          <Footer />
         </Content>
         <p className="App-intro">
 
