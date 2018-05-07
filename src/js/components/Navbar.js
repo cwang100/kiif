@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
 import '../../css/Navbar.css';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
+import Home from './Home.js';
+
 
 
 class Navbar extends Component {  
@@ -15,14 +22,19 @@ class Navbar extends Component {
       </button>
       <a className="navbar-brand" href="#">Kiif</a>
     </div>
+      
     <div className="collapse navbar-collapse" id="myNavbar">
+
       <ul className="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">News</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="intro">Introduction</Link></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+      
+
     </div>
+          
   </div>
 </nav>
     );
