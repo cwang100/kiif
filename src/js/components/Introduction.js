@@ -15,6 +15,7 @@ class Introduction extends Component {
       	<Row>
         <Column width='12'>
         	<Textbox size="medium" text="Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum."/>
+          <Textbox size="large" text="Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum."/>
         </Column>
         </Row>
         </Container>
