@@ -7,7 +7,7 @@ class Video extends Component {
     return (
 	    <Player
 	      playsInline
-	      poster="images/5.png"
+	      poster="images/4.png"
 	      src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
 	    />
     );
