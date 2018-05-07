@@ -8,6 +8,7 @@ import ImgSlider from './ImgSlider.js';
 import Holderjs from 'holderjs';
 import Container from './Container.js';
 import Header from './Header.js';
+import Video from './Video.js'
 
 
 class Home extends Component {  
@@ -21,7 +22,11 @@ class Home extends Component {
               <ImgSlider />
             </Column>
           </Row>
-
+          <Row>
+            <Column width='12'>
+              <Video />
+            </Column>
+          </Row>
           <Row>
             <Column width='12'>
               <Wrapper>
