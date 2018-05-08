@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from './js/components/Navbar.js';
+import NavbarMain from './js/components/Navbar.js';
 import Content from './js/components/Content.js';
 import Home from './js/components/Home.js';
 import Footer from './js/components/Footer.js';
@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
-        <Navbar />
+        <NavbarMain />
         <Content>
           <Route exact path="/" component={Home}/>
           <Route path="/intro" component={Introduction}/>
