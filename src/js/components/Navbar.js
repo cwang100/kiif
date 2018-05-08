@@ -15,10 +15,10 @@ class NavbarMain extends Component {
         </Navbar.Header>
          <Navbar.Collapse>
         <Nav pullRight>
-          <NavItem><Link to="/">Home</Link></NavItem>
-          <NavItem><Link to="intro">Introduction</Link></NavItem>
-          <NavItem><Link to="about">About</Link></NavItem>
-          <NavItem><Link to="intro">Contact</Link></NavItem>
+          <NavItem href="/">Home</NavItem>
+          <NavItem href="intro">Introduction</NavItem>
+          <NavItem href="about">About</NavItem>
+          <NavItem href="intro">Contact</NavItem>
         </Nav>
         </Navbar.Collapse>
       </Navbar>

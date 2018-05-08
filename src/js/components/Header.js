@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Header extends Component {  
 	background_style = {
-		'background-image': 'url(../images/'+this.props.img+'.jpg)'
+		'backgroundImage': 'url(../images/'+this.props.img+'.jpg)'
 	}
 	render() {
 		return (
