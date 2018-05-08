@@ -27,16 +27,16 @@ class ImgSlider extends Component {
       <div className="slider">
         <Slider {...settings}>
           <div>
-            <img src="images/4.png" className="sliderImgs"/>
+            <img src="images/4.png" className="sliderImgs" alt=""/>
           </div>
           <div>
-            <img src="images/5.png" className="sliderImgs"/>
+            <img src="images/5.png" className="sliderImgs" alt=""/>
           </div>
           <div>
-            <img src="images/6.png" className="sliderImgs"/>
+            <img src="images/6.png" className="sliderImgs" alt=""/>
           </div>
           <div>
-            <img src="images/12.png" className="sliderImgs"/>
+            <img src="images/12.png" className="sliderImgs" alt=""/>
           </div>
         </Slider>
       </div>

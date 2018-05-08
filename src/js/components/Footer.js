@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Row from './Row.js';
 import Column from './Column.js';
+import { Link } from 'react-router-dom'
 import '../../css/Button.css';
 import '../../css/Footer.css';
-import Holderjs from 'holderjs';
 import Container from './Container.js';
 
 class Footer extends Component {  
@@ -14,28 +14,28 @@ class Footer extends Component {
       	<Row>
       	<Column width='12'>
 			<div className="footer_logo_container">
-				<a href="#" className="footer_logo">
+				<Link to="intro" className="footer_logo">
 					<img src="holder.js/124x66" alt="" />
-				</a>
+				</Link>
 	        </div>
         </Column>
         
         <Column width='12'>
 	        <div className="footer_link_container">
 				<span className="footer_link">
-					<a href="">游戏中心</a>
+					<Link to="intro">Introduction</Link>
 		        </span>
 		        <span className="footer_link">
-					<a href="">用户安全</a>
+					<Link to="intro">Introduction</Link>
 		        </span>
 		        <span className="footer_link">
-					<a href="">找回密码</a>
+					<Link to="intro">Introduction</Link>
 		        </span>
 		        <span className="footer_link">
-					<a href="">家长监控</a>
+					<Link to="intro">Introduction</Link>
 		        </span>
 		        <span className="footer_link">
-					<a href="">法律条款</a>
+					<Link to="intro">Introduction</Link>
 		        </span>
 	        </div>
         </Column>
