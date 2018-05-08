@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../css/Detail.css';
+import { Link } from 'react-router-dom'
 
 class DetailLeft extends Component {  
   render() {
@@ -15,11 +16,11 @@ class DetailLeft extends Component {
                 </div>
 
                 <div className="entry-content">
-                    <p>{ this.props.text }</p>
+                    { this.props.children }
                 </div>
 
                 <div className="box-link">
-                    <a href=""><img src="images/box.jpg" alt="" /></a>
+                    <Link to={ this.props.link || "/" }><img src="images/box.jpg" alt="" /></Link>
                 </div>
             </div>
         </div>

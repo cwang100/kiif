@@ -21,7 +21,7 @@ class Navbar extends Component {
       <ul className="nav navbar-nav navbar-right">
         <li><Link to="/">Home</Link></li>
         <li><Link to="intro">Introduction</Link></li>
-        <li><Link to="intro">About</Link></li>
+        <li><Link to="about">About</Link></li>
         <li><Link to="intro">Contact</Link></li>
       </ul>
     </div>

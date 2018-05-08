@@ -18,28 +18,49 @@ class Home extends Component {
         <Container>
           <Row>
             <Column width='12'>
-              <Textbox size="large" text="Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum."/>
-            </Column>
-          </Row>
-          <Row>
-            <Column width='12'>
-              <Video />
+              
             </Column>
           </Row>
           <Row>
             <Column width='12'>
               <Wrapper>
-                <DetailLeft image="images/7.png" 
-                title="title1" 
-                text="Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum." />
-                
-                <DetailRight image="images/8.png" 
-                title="title2" 
-                text="Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum." />
-                
-                <DetailLeft image="images/9.png" 
-                title="title3" 
-                text="Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum." />
+                <Video />
+              </Wrapper>
+            </Column>
+          </Row>
+          <Row>
+            <Column width='12'>
+              <Wrapper>
+                <DetailLeft 
+                  image="images/7.png" 
+                  title="title1" 
+                >
+                  <p>
+                    Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu
+                    leo. Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus.
+                  </p>
+                </DetailLeft>
+                <DetailRight 
+                  image="images/8.png" 
+                  title="title2" 
+                >
+                  <p>
+                    Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu
+                    leo. Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus.
+                  </p>
+                </DetailRight>
+                <DetailLeft 
+                  image="images/9.png" 
+                  title="title3" 
+                >
+                  <p>
+                    Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu
+                    leo. Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus.
+                  </p>
+                </DetailLeft>
               </Wrapper>
             </Column>
           </Row>
