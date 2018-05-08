@@ -348,7 +348,7 @@ section{
 .header{
 	background-size:cover;
 	background-repeat:no-repeat; 
-	background-image: url(../images/1.jpg);
+	
 	background-position: center;
 	position: relative;
 }

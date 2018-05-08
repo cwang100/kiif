@@ -14,7 +14,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header img="1"/>
         <Container>
           <Row>
             <Column width='12'>
