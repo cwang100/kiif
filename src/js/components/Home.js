@@ -13,7 +13,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Header img="main"/>
+        <Header img="main.jpg"/>
         <Container>
           <Row>
             <Column width='12'>

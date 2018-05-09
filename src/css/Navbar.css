@@ -4,32 +4,13 @@
     left: 0;
     right: 0;
     width: 100%;
-    max-width: 1920px;
-    background-color:white;
+    background-color:#cbcac7;
     width: 100%;
     overflow-x: hidden;
     z-index: 1000;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
-.nav li a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-}
-
-.nav li a:hover:not(.active) {
-    background-color: #e0e0eb;
-}
-
-.active {
-    background-color: #e0e0eb;
-}
-
-.icon-bar {
-    background-color: #e0e0eb;
-}
-
-.navbar-toggle:hover{
-    border-color: #e0e0eb;
+.navbar-inverse {
+    background-color:#cbcac7;
 }

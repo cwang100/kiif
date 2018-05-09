@@ -11,7 +11,7 @@ class About extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header img="1.jpg"/>
         <Container>
           <Row>
             <Column width='12'>
