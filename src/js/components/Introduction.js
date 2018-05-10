@@ -25,6 +25,7 @@ class Introduction extends Component {
             </Column>
             <Column width='6'>
               <ImgSlider />
+
             </Column>
             <Column width='12'>
               <Collapse name="test" title="Collapse Title" 

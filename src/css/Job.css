@@ -1,0 +1,18 @@
+.job-frame {
+	margin-top:15px;
+	border: 1px solid #cbcac6;
+	border-radius: 30px;
+	background-color: white;
+	box-shadow: 1px 2px 2px #cbcac6;
+	
+}
+
+.job-title {
+	padding:20px 0px 20px 20px;
+	cursor: pointer;
+}
+
+.job-description {
+}
+
+
