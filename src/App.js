@@ -5,6 +5,7 @@ import Home from './js/components/Home.js';
 import Footer from './js/components/Footer.js';
 import Introduction from './js/components/Introduction.js';
 import About from './js/components/About.js';
+import Laws from './js/components/Laws.js';
 import {
   BrowserRouter as Router,
   Route
@@ -23,6 +24,7 @@ class App extends Component {
           <Route path="/intro" component={Introduction}/>
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Introduction}/>
+          <Route path="/laws" component={Laws}/>
           <Footer />
         </Content>
 

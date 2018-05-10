@@ -3,10 +3,11 @@ import '../../css/Navbar.css';
 import { Link } from 'react-router-dom'
 import { Navbar, NavItem, Nav} from 'react-bootstrap';
 
+
 class NavbarMain extends Component {  
   render() {
     return (
-      <Navbar collapseOnSelect>
+      <Navbar bsStyle="default" collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/">Kiif</Link>
