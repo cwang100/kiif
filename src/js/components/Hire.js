@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Row from './Row.js';
 import Column from './Column.js';
-import Wrapper from './Wrapper.js';
 
 import Container from './Container.js';
 import Header from './Header.js';
@@ -14,7 +13,7 @@ class Hire extends Component {
   render() {
     return (
       <div>
-        <Header img="2"/>
+        <Header img="2.jpg"/>
         <Container>
         <div className="hire-frame">
           <Row>

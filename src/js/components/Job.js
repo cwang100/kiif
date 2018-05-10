@@ -1,12 +1,5 @@
 import React, { Component } from 'react';
-import Row from './Row.js';
-import Column from './Column.js';
-import Wrapper from './Wrapper.js';
-
-import Container from './Container.js';
-import Header from './Header.js';
-import {Media} from 'react-bootstrap';
-import {Button, Collapse, Well} from 'react-bootstrap';
+import {Collapse} from 'react-bootstrap';
 import '../../css/Job.css';
 
 class Job extends Component { 
