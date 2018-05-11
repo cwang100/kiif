@@ -7,6 +7,7 @@ import Introduction from './js/components/Introduction.js';
 import About from './js/components/About.js';
 import Laws from './js/components/Laws.js';
 import Hire from './js/components/Hire.js';
+import Contact from './js/components/Contact.js';
 import {
   BrowserRouter as Router,
   Route
@@ -25,7 +26,7 @@ class App extends Component {
           <Route path="/intro" component={Introduction}/>
           <Route path="/about" component={About}/>
           <Route path="/hire" component={Hire}/>
-          <Route path="/contact" component={Introduction}/>
+          <Route path="/contact" component={Contact}/>
           <Route path="/laws" component={Laws}/>
           <Footer />
         </Content>
