@@ -20,7 +20,7 @@ class NavbarMain extends Component {
           <NavItem href="intro">Introduction</NavItem>
           <NavItem href="about">About</NavItem>
           <NavItem href="hire">Hire</NavItem>
-          <NavItem href="intro">Contact</NavItem>
+          <NavItem href="contact">Contact</NavItem>
         </Nav>
         </Navbar.Collapse>
       </Navbar>
